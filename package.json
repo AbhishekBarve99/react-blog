@@ -1,0 +1,86 @@
+{
+  "name": "my_blog",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.19.2",
+    "browserify": "^16.2.3",
+    "cross-env": "^7.0.3",
+    "grommet": "^2.17.5",
+    "grommet-icons": "^4.6.2",
+    "jsdoc": "^3.6.3",
+    "jsdom": "^14.0.0",
+    "node-fetch": "^2.6.0",
+    "polished": "^4.1.3",
+    "popper.js": "^1.16.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-loadable": "^5.5.0",
+    "react-redux": "^7.1.3",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.1",
+    "reactstrap": "^8.2.0",
+    "reduce-reducers": "^1.0.4",
+    "redux": "^4.0.4",
+    "redux-saga": "^1.1.3",
+    "styled-components": "^5.3.1",
+    "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --quiet '**/*.@(js|jsx|ts|tsx)'",
+    "lint-fix": "eslint --quiet '**/*.@(js|jsx|ts|tsx)' --fix",
+    "pipe": "npm i && npm run lint && npm run test",
+    "push": "npm run lint && git push"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.5",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.21",
+    "@types/react": "^16.9.16",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-loadable": "^5.5.3",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-router-dom": "^5.1.3",
+    "@types/react-test-renderer": "^16.9.2",
+    "@types/reactstrap": "^8.2.0",
+    "@types/redux-logger": "^3.0.7",
+    "@typescript-eslint/eslint-plugin": "^2.12.0",
+    "@typescript-eslint/parser": "^2.12.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.1",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "html-webpack-plugin": "^4.5.2",
+    "react-test-renderer": "^16.13.0",
+    "redux-devtools": "^3.5.0",
+    "redux-logger": "^3.0.6",
+    "ts-jest": "^25.5.1"
+  }
+}

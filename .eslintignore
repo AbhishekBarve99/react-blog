@@ -1,0 +1,3 @@
+# build related stuff
+# REF  https://eslint.org/docs/user-guide/configuring#ignoring-files-and-directories
+build/*

@@ -1,0 +1,11 @@
+.main-footer {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #ececec;
+    position: relative;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
